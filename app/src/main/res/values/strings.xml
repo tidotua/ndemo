@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nest API Demo</string>
+    <string name="thermostats">Thermostats</string>
+    <string name="protects">Protects</string>
+    <string name="off">Off</string>
+    <string name="home">Home</string>
+    <string name="away">Away</string>
+    <string name="heat">Heat</string>
+    <string name="cool">Cool</string>
+    <string name="heating">Heating</string>
+    <string name="cooling">Cooling</string>
+    <string name="heat_to">Heat set to</string>
+    <string name="cool_to">Cool set to</string>
+    <string name="heat_cool">Heat &#8226; Cool</string>
+    <string name="bullet"> &#8226; </string>
+    <string name="ok">Ok</string>
+    <string name="emergency">emergency</string>
+    <string name="warning">warning</string>
+    <string name="co">CO</string>
+    <string name="smoke">Smoke</string>
+    <string name="battery">Battery replace</string>
+    <string name="thermostat">thermostat</string>
+    <string name="current">Current temperature (F)</string>
+    <string name="logout_dialog_title">Log Out</string>
+    <string name="logout_dialog_text">Do you want Log Out?</string>
+    <string name="login">Press to login</string>
+
+</resources>

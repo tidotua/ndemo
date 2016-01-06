@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".view.activity.ThermostatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="HVAC mode:"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/textView2" />
+
+        <Spinner
+            android:id="@+id/modeSpinner"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/current"/>
+
+        <TextView
+            android:id="@+id/currentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="70"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/current_temperature"/>
+
+        <ImageView
+            android:id="@+id/nestLeafImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/nest_leaf"/>
+
+    </LinearLayout>
+
+    <com.tidotua.ndemo.view.control.ArcSlider
+        android:id="@+id/thermostatSlider"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="160dp"/>
+
+    <com.tidotua.ndemo.view.control.IntervalArcSlider
+        android:id="@+id/thermostatIntervalSlider"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="160dp"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>

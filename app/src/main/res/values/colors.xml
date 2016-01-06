@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nest_blue">#00AFD8</color>
+    <color name="nest_gray">#7B858E</color>
+    <color name="thermostat_heat">#E15E1F</color>
+    <color name="thermostat_cool">#006BEC</color>
+    <color name="thermostat_off">#222222</color>
+    <color name="safety_emergency">#E63117</color>
+    <color name="safety_warning">#FBCD36</color>
+    <color name="safety_ok">#39C226</color>
+    <color name="safety_disconnect">#B8B8BE</color>
+    <color name="list_selection">#22000000</color>
+    <color name="current_temperature">#202020</color>
+</resources>
